@@ -3,11 +3,11 @@
 #include <ArduinoJson.h>
 
 // Wi-Fi credentials
-const char* ssid = "Newton 3rd law";           // Replace with your Wi-Fi SSID
-const char* password = "MdALRIAD#2201042";   // Replace with your Wi-Fi password
+const char* ssid = "Your Wifi ssid";           // Replace with your Wi-Fi SSID
+const char* password = "Your wifi password";   // Replace with your Wi-Fi password
 
 // Gemini API credentials
-const char* Gemini_Token = "AIzaSyB1zSyvkOpK_ezTCzl4gZkySPI577zmSeU"; // Replace with your Gemini API key
+const char* Gemini_Token = "Use your API key"; // Replace with your Gemini API key
 const int Gemini_Max_Tokens = 100;               // Adjust as needed
 
 String userInput = "";  // To store user input
